@@ -36,7 +36,7 @@ public class CalcTest
 	    String myAppName = prop.getProperty("app_name");
 	    String myURL = "http://" + myIP + ":" + myPort + "/" + myAppName;
 	    //String myURL = "http://130.211.229.175:9090/calculator/";
-	     String myURL = "http://34.134.180.1:9090/calculator/";
+	    // String myURL = "http://34.134.180.1:9090/calculator/";
 	    System.out.println("Opening " + myURL);
 	    
 	    FirefoxOptions options = new FirefoxOptions();
